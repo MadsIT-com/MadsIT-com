@@ -17,10 +17,9 @@ they go.
 | --- | --- | --- |
 | [RDPShift](https://github.com/MadsIT-com/rdp-shift) | An `mstsc`-style “enter a computer and connect” workflow | [FreeRDP](https://www.freerdp.com/) |
 | [SSHShift](https://github.com/MadsIT-com/ssh-shift) | `Windows key → PuTTY → Enter → host → Enter`, made native to KDE | [OpenSSH](https://www.openssh.com/) + Konsole |
-| **MapShift** *(private preview)* | A familiar “map network drive” path into KDE applications | KDE KIO SMB + KIO-FUSE |
+| [MapShift](https://github.com/MadsIT-com/map-shift) | A familiar “map network drive” path into KDE applications | KDE KIO SMB + KIO-FUSE |
 
-The suite currently targets **Debian 13, KDE Plasma, and Wayland**. MapShift is
-being tested privately before its repository is opened to everyone.
+The suite currently targets **Debian 13, KDE Plasma, and Wayland**.
 
 ## Debian handles the heavy lifting
 
