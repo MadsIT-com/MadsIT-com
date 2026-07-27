@@ -20,6 +20,18 @@ they go.
 
 Both projects currently target **Debian 13, KDE Plasma, and Wayland**.
 
+## Debian handles the heavy lifting
+
+Shift tools use OpenSSH, FreeRDP, Konsole, and other native Debian packages
+instead of downloading and bundling another complete client. Normal `apt`
+upgrades therefore deliver protocol-engine security and bug fixes through the
+same trusted update path as the rest of the machine. There is no separate
+updater or private copy quietly drifting out of date.
+
+The lightweight wrappers may still need occasional compatibility or interface
+updates, but the security-sensitive implementations remain Debian-maintained
+packages.
+
 ## What “thin wrapper” means here
 
 - Use Debian's established tools instead of reimplementing their protocols.
