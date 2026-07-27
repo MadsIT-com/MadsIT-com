@@ -16,7 +16,7 @@ they go.
 | Tool | Familiar starting point | Debian engine |
 | --- | --- | --- |
 | [RDPShift](https://github.com/MadsIT-com/rdp-shift) | An `mstsc`-style “enter a computer and connect” workflow | [FreeRDP](https://www.freerdp.com/) |
-| [SSHShift](https://github.com/MadsIT-com/ssh-shift) | A one-shot alternative to saved PuTTY sessions | [OpenSSH](https://www.openssh.com/) + Konsole |
+| [SSHShift](https://github.com/MadsIT-com/ssh-shift) | `Windows key → PuTTY → Enter → host → Enter`, made native to KDE | [OpenSSH](https://www.openssh.com/) + Konsole |
 
 Both projects currently target **Debian 13, KDE Plasma, and Wayland**.
 
