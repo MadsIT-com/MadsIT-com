@@ -18,15 +18,17 @@ they go.
 | [RDPShift](https://github.com/MadsIT-com/rdp-shift) | An `mstsc`-style “enter a computer and connect” workflow | [FreeRDP](https://www.freerdp.com/) |
 | [SSHShift](https://github.com/MadsIT-com/ssh-shift) | `Windows key → PuTTY → Enter → host → Enter`, made native to KDE | [OpenSSH](https://www.openssh.com/) + Konsole |
 | [MapShift](https://github.com/MadsIT-com/map-shift) | A familiar “map network drive” path into KDE applications | KDE KIO SMB + KIO-FUSE |
+| [ServiceShift](https://github.com/MadsIT-com/service-shift) | A `services.msc`-style overview with familiar service controls | systemd + PolicyKit |
+| [TaskShift](https://github.com/MadsIT-com/task-shift) | A Task Scheduler-style overview with safe schedule editing | systemd timers + PolicyKit |
 
 The suite currently targets **Debian 13, KDE Plasma, and Wayland**.
 
 ## Debian handles the heavy lifting
 
-Shift tools use OpenSSH, FreeRDP, Konsole, KDE KIO, and other native Debian
-packages instead of downloading and bundling another complete client. Normal `apt`
-upgrades therefore deliver protocol-engine security and bug fixes through the
-same trusted update path as the rest of the machine. There is no separate
+Shift tools use OpenSSH, FreeRDP, systemd, Konsole, KDE KIO, and other native
+Debian packages instead of downloading and bundling another complete client.
+Normal `apt` upgrades therefore deliver engine security and bug fixes through
+the same trusted update path as the rest of the machine. There is no separate
 updater or private copy quietly drifting out of date.
 
 The lightweight wrappers may still need occasional compatibility or interface
